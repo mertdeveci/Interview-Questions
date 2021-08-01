@@ -1,0 +1,75 @@
+body{
+    min-width: 800px;
+}
+
+#score{
+    position: fix;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.circle{
+    height: 60px; 
+    width: 60px;
+    border: solid 1px yellow; 
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 60px;
+    background-color: #0E6FFD;
+}
+@media screen and (max-width: 1255px) {
+    .icerik{
+        height: 50px; 
+        width: 50px;
+        border: solid 1px black; 
+        padding: auto;
+        text-align: center;
+        border-radius: 100%;
+        line-height: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1066px) {
+    .icerik{
+        height: 45px; 
+        width: 45px;
+        border: solid 1px black; 
+        padding: auto;
+        text-align: center;
+        border-radius: 100%;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .icerik{
+        height: 45px; 
+        width: 45px;
+        border: solid 1px black; 
+        padding: auto;
+        text-align: center;
+        border-radius: 100%;
+        line-height: 45px;
+    }
+    
+}
+
+
+@media screen and (max-width: 880px) {
+    .icerik{
+        height: 35px; 
+        width: 35px;
+        border: solid 1px black; 
+        padding: auto;
+        text-align: center;
+        border-radius: 100%;
+        line-height: 35px;
+    }
+  }
